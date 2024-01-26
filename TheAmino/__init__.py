@@ -4,7 +4,7 @@ from requests import get
 __title__ = 'TheAmino'
 __author__ = 'Codex'
 __license__ = 'MIT'
-__copyright__ = 'Copyright 2023-2024 ThePhoenix78'
+__copyright__ = 'Copyright 2023-2024 Codex'
 __version__ = '0.0.1'
 
 
