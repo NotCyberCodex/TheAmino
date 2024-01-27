@@ -43,4 +43,3 @@ print("Bot is running")
 ## Credits
 - Credits goes to BotAmino
 - Big shout out to Phoenix
-- 
