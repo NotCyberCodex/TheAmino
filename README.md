@@ -1,16 +1,46 @@
-## For EDUCATIONAL PURPOSE only
+# An API for amino bot using Python
 
-# TheAmino
-An API for bot amino based on Slimakoi's work
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)   
 
-Telegram channel https://t.me/the_code_24
+## Follow us
+- Telegram Channel [Click](https://t.me/the_code_24)
+- YouTube channel  [Click](https://youtube.com/@the_code692)
+- Discord Server   [Click](https://discord.com/invite/jEcCwE8cte)
 
-This API has been made for people who aren't very good at programming or people who want to do easy stuff!
+## Usage
 
-## How does this API work?
+- Make sure you have Python installed in your system.
+- Run Following command in the CMD.
+ ```
+  pip install TheAmino
+  ```
+## Example
 
-It works like the Amino.py's API but with added features like commands or answer
-for example:
+- It works like the Amino.py's API but with added features like commands or answer for example:
+
+ ```
+from TheAmino import TheAmino
+
+client = TheAmino("Your Email", "Your Password") # Or you use login.json
+client.prefix = "!"  # set the prefix default is /
 
 
 
+@client.command("check")
+def ping(data):
+    data.subClient.send_message(data.chatId, message="𝗕𝗼𝘁 𝗮𝗰𝘁𝗶𝘃𝗲 ✓")
+
+
+
+client.launch()
+print("Bot is running")
+  ```
+
+## Note 
+- I have tried to implement all the functionality, it might have some bugs also. Ignore that or please try to solve that bug.
+
+## Credits
+- Credits goes to BotAmino
+- Big shout out to Phoenix
+- 
